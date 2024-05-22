@@ -275,6 +275,17 @@ section {
   position: relative;
   color: #173b6c;
 }
+.section-title a {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+.section-title i:hover {
+  color:rgba(20, 157, 221, 0.75)
+}
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -334,7 +345,7 @@ section {
   font-size: 44px;
   color: #149ddd;
   float: left;
-  line-height: 0;
+  line-height: 1.25;
 }
 .facts .count-box span {
   font-size: 48px;
@@ -345,7 +356,7 @@ section {
   margin-left: 60px;
 }
 .facts .count-box p {
-  padding: 15px 0 0 0;
+  padding: 5px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -519,7 +530,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
@@ -613,7 +624,7 @@ section {
 }
 .services .icon i {
   color: #fff;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 0;
 }
 .services .icon-box:hover .icon {
@@ -723,6 +734,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  background: #f5f8fd;
 }
 .contact .info {
   padding: 30px;

@@ -1,0 +1,95 @@
+
+.game {
+    width: 1080px;
+    height: 608px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(../img/space3.jpg);
+  }
+  
+  #dino {
+    width: 40px;
+    height: 100px;
+    background-color: blue;
+    /*background-size: 20px 50px;*/
+    position: relative;
+    left: 100px;
+    top: 500px;
+  }
+  
+  .jump {
+    animation: jump 500ms linear;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 500px;
+    }
+  
+    25% {
+      top: 300px;
+    }
+
+    50% {
+      top: 200px;
+    }
+  
+    75% {
+      top: 300px;
+    }
+  
+    100% {
+      top: 500px;
+    }
+  }
+  
+  #cactus {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 460px;
+    left: 1040px;
+  
+    background-color: red;
+    background-size: 20px 20px;
+  
+    animation: block 1.5s infinite linear;
+  }
+  
+  @keyframes block {
+    0% {
+      left: 1040px;
+    }
+  
+    100% {
+      left: 0px;
+    }
+  }
+
+  .card {
+    text-align: center
+  }
+
+  .button{
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+
+  
